@@ -3,7 +3,7 @@ import axios from "axios";
 
 import { Gogoanime, GogoEpisode, SubOrDub } from "../models";
 
-export const BASE_URL = "https://gogoanime.gg/";
+export const BASE_URL = "https://ww24.gogoanimes.fi/";
 const ajax_url = "https://ajax.gogo-load.com/";
 const list_episodes_url = `${ajax_url}ajax/load-list-episode`;
 export const recent_release_url = `${ajax_url}ajax/page-recent-release.html`;
